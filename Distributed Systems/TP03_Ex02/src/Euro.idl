@@ -1,0 +1,6 @@
+module Convertisseur {
+    interface Euro {
+        float toDollar(in float amount);
+        float toPound(in float amount);
+    };
+};
